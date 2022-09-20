@@ -34,7 +34,7 @@ targetsDict = {}  # Empty dictionary to store targets
 # the next bit of code just pings multiple targets and outputs TRUE or FALSE in a json
 while True:
     for s in src_list:
-        host = multiping(target_list, count=3, source=s) # pings every target 3 times
+        host = multiping(target_list, count=3, source=s)  # pings every target 3 times
         for h in range(len(host)):
             if s == src_list[0]:
                 if host[h].is_alive:
