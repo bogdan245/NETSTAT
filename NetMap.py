@@ -45,7 +45,7 @@ while True:
             output.write(json.dumps(targetsDict))
 
         # dump the json in a javascript file to import it in the webpage, another non-elegant solution, but it works
-        with open("declare.js", 'w') as json_formatted:
+        with open("E:\\___REPOSITORIES\\NETSTAT\\html_template\\declare.js", 'w') as json_formatted:
             jsonobj = json.dumps(targetsDict)
             json_formatted.write("var jsonstr = '{}'".format(jsonobj))
             json_formatted.close()
