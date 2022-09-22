@@ -10,6 +10,10 @@ Front-end in plain HTML and CSS with javascript to interact with json objects.
 
 Just a personal project to learn a thing or two.
 
+Python dependecies:
+ - configparser
+ - icmplib
+
 I will attach an image with a DEMO result.
 
 ![MAP](https://user-images.githubusercontent.com/44744343/191697710-fc46e1e3-aa72-4748-b321-235b88326148.png)
